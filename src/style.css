@@ -1,3 +1,13 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/* html {
+  @apply nx-antialiased nx-text-base nx-scroll-pt-[--nextra-navbar-height];
+  font-feature-settings: 'rlig' 1, 'calt' 1, 'ss01' 1;
+  -webkit-tap-highlight-color: transparent;
+} */
+
+body {
+  @apply nx-bg-gradient-to-b nx-from-gray-700 nx-to-gray-900;
+}
