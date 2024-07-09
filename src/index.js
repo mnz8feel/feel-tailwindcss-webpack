@@ -1,4 +1,4 @@
-import './style.css';
+import './css/styles.css';
 
 const hello = document.createElement('h1');
 const wrapper = document.createElement('div');
